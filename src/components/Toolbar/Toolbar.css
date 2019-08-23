@@ -13,6 +13,10 @@
 }
 
 .toolbar__logo a{
+    color:pink;
+}
+
+.toolbar__logo a{
     color: black;
     text-decoration: none;
     font-size: 1.5rm;

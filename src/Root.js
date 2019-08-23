@@ -34,7 +34,8 @@ class Root extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        {/* <SvgLogo /> */}
+        <SvgLogo className="TsdLogo__Mainpage"/>
+        
       </div>
       
 

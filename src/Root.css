@@ -1,4 +1,5 @@
 .App {
+  position: relative;
   text-align: center;
   display: inline-block;
 	position: relative;
@@ -11,7 +12,18 @@
 .Toolbar__3SD_Logo {
   display: inline-block;
   width: 7%;
+ }
 
-  
-	
+
+.TsdLogo__Mainpage {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
 }
+  
