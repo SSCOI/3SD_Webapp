@@ -1,8 +1,8 @@
 import React, {Component}  from 'react';
 
 import './Root.css';
-import FSLogo from './components/LogoAnimation/FSLogo';
-import Logo from './components/LogoAnimation/Logo'
+import SvgLogo from './Icons/Logo';
+import Logo from './components/LogoAnimation/Logo';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer'
 import Backdrop from  './components/Backdrop/Backdrop';
@@ -34,7 +34,7 @@ class Root extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <Logo/>
+  
       </div>
       
       
