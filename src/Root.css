@@ -1,4 +1,17 @@
 .App {
   text-align: center;
+  display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden;
 }
 
+.Toolbar__3SD_Logo {
+  display: inline-block;
+  width: 7%;
+
+  
+	
+}

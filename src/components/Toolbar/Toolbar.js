@@ -11,7 +11,7 @@ const toolbar = props => (
             <div className="toolbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
-            <div className="toolbar__logo"><a href="/"><SvgLogo width="5px" height='3'/> 3SD</a></div>
+            <div className="toolbar__logo"><a href="/"> <SvgLogo className="Toolbar__3SD_Logo"/></a>Three Step Development</div>
             <div className="spacer"></div>
             <div className="toolbar_navigation-items">
                 <ul>
