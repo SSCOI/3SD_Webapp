@@ -2,6 +2,7 @@ import React, {Component}  from 'react';
 
 import './Root.css';
 import SvgLogo from './Icons/Logo';
+import SvgLaptopTsd from './Icons/LaptopTsd'
 import Logo from './components/LogoAnimation/Logo';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer'
@@ -34,7 +35,7 @@ class Root extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <SvgLogo className="TsdLogo__Mainpage"/>
+        <SvgLaptopTsd className="TsdLogo__Mainpage"/>
         
       </div>
       
